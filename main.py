@@ -13,8 +13,8 @@ sorted_power_W = bubble_sort(power_power)
 print(sorted_power_W)
 
 plt.plot(sorted_power_W)
-plt.title('Power Curve')
-plt.xlabel('Index')
+plt.title('Leistungskurve')
+plt.xlabel('Time (t)')
 plt.ylabel('Power (W)')
 plt.grid(True)
 
