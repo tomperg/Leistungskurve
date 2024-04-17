@@ -9,8 +9,16 @@
     - `python -m venv .venv`
 - Aktiviere die virtuelle Umgebung
     - Windows: `.venv\Scripts\Activate`
+- einspielen der Datei
+    - `activity.csv` und `load_data.py`
 - Erstellen der Datei 
     - `main.py` und `sort.py` 
+- Erstellen eines einfachen Liniendiagramms mit Matplotlib, das die sortierten Leistungswerte darstellt
+- Speichern des erstellten Diagramms im PNG-Format im Ordner `figures`
 
-## Benutzung
-- öffne `main.py`
+
+## Nutzung Code
+- die Leistungsdaten werden sortiert
+- der Code erstellt ein einfaches Diagramm mit Matplotlib
+- Überwachung von Trainingsleistungen
+
