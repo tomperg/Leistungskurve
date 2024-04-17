@@ -1,4 +1,5 @@
 # Leistungskurve
+### Thomas Perger und Amelie Koutny
 
 ## Installationsanleitung
 - Erstelle ein Repositorie auf Github 
