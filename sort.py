@@ -1,3 +1,5 @@
+data = [4, 6, 1, 4]
+
 def bubble_sort(data):
     n = len(data)
     # Traverse through all array elements
@@ -8,3 +10,5 @@ def bubble_sort(data):
             # Swap if the element found is greater than the next element
             if data[j] > data[j+1]:
                 data[j], data[j+1] = data[j+1], data[j]
+    return data 
+
