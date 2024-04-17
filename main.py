@@ -12,3 +12,18 @@ sorted_power_W = bubble_sort(power_power)
 
 print(sorted_power_W)
 
+plt.plot(sorted_power_W)
+plt.title('Power Curve')
+plt.xlabel('Index')
+plt.ylabel('Power (W)')
+plt.grid(True)
+
+# Erstellen des figures-Ordners
+if not os.path.exists('figures'):
+    os.makedirs('figures')
+
+# Speichern der Grafik im PNG-Format im figures-Ordner
+plt.savefig('figures/power_curve.png')
+
+# Anzeigen der Grafik
+plt.show()
